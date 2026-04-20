@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Coming soon">
+  <rect width="400" height="400" fill="#0b0b0c"/>
+  <g fill="none" stroke="#2a2a2e" stroke-width="1">
+    <circle cx="200" cy="200" r="140"/>
+    <circle cx="200" cy="200" r="90"/>
+  </g>
+  <g transform="translate(200 180)" fill="none" stroke="#7fa4d8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-26" y="-22" width="52" height="52" rx="12" ry="12"/>
+    <circle cx="0" cy="4" r="10"/>
+    <circle cx="14" cy="-12" r="1.6" fill="#7fa4d8"/>
+  </g>
+  <text x="200" y="280" text-anchor="middle" font-family="Jost, 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="400" letter-spacing="2" fill="#c8c8cc">COMING SOON</text>
+  <text x="200" y="308" text-anchor="middle" font-family="Jost, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="300" letter-spacing="3" fill="#7fa4d8">@THEDIVINEHANDSCULPTURE</text>
+</svg>
