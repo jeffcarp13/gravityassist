@@ -99,9 +99,9 @@ p{margin:0 0 1em}
 .ga-fund-desc{font-size:16px;color:var(--ga-ink-dim);line-height:1.5;font-weight:300;margin:0;flex:1}
 .ga-fund-btn{display:inline-flex;align-items:center;justify-content:center;height:38px;padding:0 24px;background:#7fa4d8;color:#fff;font-family:var(--ga-display);font-weight:400;font-size:15px;border-radius:999px;white-space:nowrap;box-shadow:0 2px 10px rgba(0,0,0,.3);align-self:flex-start;margin-top:10px;transition:background .15s,transform .15s}
 .ga-fund-btn:hover{background:#6a91ce;transform:translateY(-1px)}
-.ga-fund-card-sponsored{opacity:.55;filter:grayscale(.65)}
-.ga-fund-card-sponsored:hover{border-color:var(--ga-border);transform:none;opacity:.75;filter:grayscale(.4)}
-.ga-fund-sponsored{display:inline-flex;align-items:center;justify-content:center;height:38px;padding:0 20px;background:transparent;border:1px solid #555;color:#aaa;font-family:var(--ga-display);font-weight:500;font-size:12px;letter-spacing:2px;text-transform:uppercase;border-radius:999px;align-self:flex-start;margin-top:10px;cursor:default}
+.ga-fund-card-sponsored:hover{border-color:var(--ga-border);transform:none}
+.ga-fund-card-sponsored .ga-fund-name,.ga-fund-card-sponsored .ga-fund-desc,.ga-fund-card-sponsored .ga-fund-cost{color:#888}
+.ga-fund-sponsored{display:inline-flex;align-items:center;justify-content:center;height:38px;padding:0 20px;background:transparent;border:1.5px solid #00e676;color:#00e676;font-family:var(--ga-display);font-weight:700;font-size:12px;letter-spacing:2px;text-transform:uppercase;border-radius:999px;align-self:flex-start;margin-top:10px;cursor:default}
 .ga-fund-closing{text-align:center;color:var(--ga-ink-dim);max-width:760px;margin:72px auto 0;font-size:22px;line-height:1.65;font-weight:300}
 .ga-fund-closing a{color:#7fa4d8;font-weight:500;border-bottom:1px solid rgba(127,164,216,.4);transition:color .15s,border-color .15s}
 .ga-fund-closing a:hover{color:#fff;border-bottom-color:#fff}
