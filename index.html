@@ -97,11 +97,11 @@
       <div class="ga-carousel" id="gaCarousel">
         <button class="ga-carousel-btn ga-carousel-prev" type="button" aria-label="Previous">&lsaquo;</button>
         <div class="ga-carousel-track" id="gaCarouselTrack">
-          <a class="ga-carousel-slide" href="https://www.instagram.com/thedivinehandsculpture/" target="_blank" rel="noopener"><img src="images/gravityassist/progress/01.jpg" alt="Progress post 1" loading="lazy"></a>
-          <a class="ga-carousel-slide" href="https://www.instagram.com/thedivinehandsculpture/" target="_blank" rel="noopener"><img src="images/gravityassist/progress/02.jpg" alt="Progress post 2" loading="lazy"></a>
-          <a class="ga-carousel-slide" href="https://www.instagram.com/thedivinehandsculpture/" target="_blank" rel="noopener"><img src="images/gravityassist/progress/03.jpg" alt="Progress post 3" loading="lazy"></a>
-          <a class="ga-carousel-slide" href="https://www.instagram.com/thedivinehandsculpture/" target="_blank" rel="noopener"><img src="images/gravityassist/progress/04.jpg" alt="Progress post 4" loading="lazy"></a>
-          <a class="ga-carousel-slide" href="https://www.instagram.com/thedivinehandsculpture/" target="_blank" rel="noopener"><img src="images/gravityassist/progress/05.jpg" alt="Progress post 5" loading="lazy"></a>
+          <a class="ga-carousel-slide" href="https://www.instagram.com/thedivinehandsculpture/" target="_blank" rel="noopener"><img src="images/gravityassist/progress/1.png" alt="Progress post 1" loading="lazy"></a>
+          <a class="ga-carousel-slide" href="https://www.instagram.com/thedivinehandsculpture/" target="_blank" rel="noopener"><img src="images/gravityassist/progress/2.png" alt="Progress post 2" loading="lazy"></a>
+          <a class="ga-carousel-slide" href="https://www.instagram.com/thedivinehandsculpture/" target="_blank" rel="noopener"><img src="images/gravityassist/progress/3.png" alt="Progress post 3" loading="lazy"></a>
+          <a class="ga-carousel-slide" href="https://www.instagram.com/thedivinehandsculpture/" target="_blank" rel="noopener"><img src="images/gravityassist/progress/4.png" alt="Progress post 4" loading="lazy"></a>
+          <a class="ga-carousel-slide" href="https://www.instagram.com/thedivinehandsculpture/" target="_blank" rel="noopener"><img src="images/gravityassist/progress/5.png" alt="Progress post 5" loading="lazy"></a>
         </div>
         <button class="ga-carousel-btn ga-carousel-next" type="button" aria-label="Next">&rsaquo;</button>
       </div>
@@ -399,9 +399,6 @@
         function step(){var s=track.querySelector('.ga-carousel-slide');return s?s.getBoundingClientRect().width+18:track.clientWidth*0.8;}
         prev.addEventListener('click',function(){track.scrollBy({left:-step(),behavior:'smooth'});});
         next.addEventListener('click',function(){track.scrollBy({left:step(),behavior:'smooth'});});
-        track.querySelectorAll('img').forEach(function(img){
-          img.addEventListener('error',function(){if(!img.dataset.fb){img.dataset.fb='1';img.src='images/gravityassist/progress/placeholder.svg';}});
-        });
       }
     })();
   </script>
