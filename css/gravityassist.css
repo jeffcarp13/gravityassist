@@ -102,8 +102,9 @@ p{margin:0 0 1em}
 
 /* Latest Progress: Instagram-style carousel */
 .ga-progress-wrap{max-width:1100px;margin:0 auto;padding:0 24px}
-.ga-progress-link{color:#7fa4d8;font-weight:500;border-bottom:1px solid rgba(127,164,216,.4);transition:color .15s,border-color .15s}
+.ga-progress-link{color:#7fa4d8;font-weight:500;border-bottom:1px solid rgba(127,164,216,.4);transition:color .15s,border-color .15s;display:inline-flex;align-items:center;gap:6px;vertical-align:baseline}
 .ga-progress-link:hover{color:#fff;border-bottom-color:#fff}
+.ga-inline-ig{width:1em;height:1em;flex-shrink:0;position:relative;top:.12em}
 .ga-carousel{position:relative;margin-top:28px}
 .ga-carousel-track{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding:4px 4px 18px;scrollbar-width:thin;scrollbar-color:#3a3a3e transparent}
 .ga-carousel-track::-webkit-scrollbar{height:6px}
@@ -132,8 +133,8 @@ p{margin:0 0 1em}
 .ga-form input,.ga-form textarea{background:#fff;border:none;border-radius:2px;padding:8px 10px;color:#1a1f2e;font-family:inherit;font-size:18px;transition:box-shadow .2s}
 .ga-form input:focus,.ga-form textarea:focus{outline:none;box-shadow:0 0 0 2px var(--ga-blue-2)}
 .ga-form textarea{resize:vertical;min-height:70px}
-.ga-send{justify-self:center;background:var(--ga-blue);color:#fff;border:none;padding:10px 30px;border-radius:2px;font-size:18px;font-weight:500;cursor:pointer;transition:transform .15s,opacity .2s}
-.ga-send:hover{transform:translateY(-1px);opacity:.95}
+.ga-send{justify-self:center;background:#7fa4d8;color:#fff;border:none;padding:12px 34px;border-radius:999px;font-family:var(--ga-display);font-size:18px;font-weight:400;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.3);transition:background .15s,transform .15s}
+.ga-send:hover{background:#6a91ce;transform:translateY(-1px)}
 
 /* Footer */
 .ga-footer{background:var(--ga-bg);padding:40px 0 56px;color:var(--ga-muted)}
