@@ -85,7 +85,7 @@ p{margin:0 0 1em}
 .ga-fund-group:last-of-type{margin-bottom:24px}
 .ga-fund-group-head{text-align:center;margin-bottom:32px}
 .ga-fund-group-head h3{font-family:var(--ga-display);font-size:clamp(26px,3vw,32px);font-weight:500;color:#fff;margin:0 0 6px;line-height:1.3;letter-spacing:0}
-.ga-fund-group-head em{display:block;font-style:italic;font-family:var(--ga-display);font-size:18px;font-weight:300;color:#7fa4d8;line-height:1.4}
+.ga-fund-group-head em{display:block;font-style:italic;font-family:var(--ga-display);font-size:22px;font-weight:300;color:#7fa4d8;line-height:1.4}
 .ga-fund-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch}
 .ga-fund-card{background:#0b0b0c;border:1px solid var(--ga-border);border-radius:var(--ga-img-radius);padding:24px;display:flex;flex-direction:column;gap:10px;box-shadow:0 4px 16px rgba(0,0,0,.35);transition:border-color .2s,transform .15s}
 .ga-fund-card:hover{border-color:#7fa4d8;transform:translateY(-2px)}
