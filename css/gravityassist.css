@@ -29,10 +29,11 @@ p{margin:0 0 1em}
 .ga-skip:focus{left:16px;top:10px;font-size:11px;color:var(--ga-muted);z-index:200}
 
 /* Top bar: title top-left, no nav */
-.ga-topbar{padding:20px 40px 16px;text-align:center;position:sticky;top:0;z-index:60;background:rgba(0,0,0,.82);backdrop-filter:saturate(140%) blur(10px);-webkit-backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid rgba(255,255,255,.06)}
-.ga-topbar-ig{position:absolute;top:50%;right:40px;transform:translateY(-50%);color:#fff;display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;transition:color .2s ease,transform .2s ease}
+.ga-topbar{padding:20px 0 16px;text-align:center;position:sticky;top:0;z-index:60;background:rgba(0,0,0,.82);backdrop-filter:saturate(140%) blur(10px);-webkit-backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid rgba(255,255,255,.06)}
+.ga-topbar-inner{position:relative;max-width:850px;margin:0 auto;padding:0 24px}
+.ga-topbar-ig{position:absolute;top:50%;right:24px;transform:translateY(-50%);color:#fff;display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;transition:color .2s ease,transform .2s ease}
 .ga-topbar-ig:hover{color:#7fa4d8;transform:translateY(-50%) scale(1.08)}
-.ga-topbar-ig svg{width:28px;height:28px}
+.ga-topbar-ig svg{width:31px;height:31px}
 .ga-topbar-title{font-family:var(--ga-display);font-size:32px;font-weight:500;color:#fff;letter-spacing:0;line-height:1.2}
 .ga-topbar-sub{font-family:var(--ga-display);font-size:20px;color:#7fa4d8;margin-top:2px;font-weight:300;line-height:1.2}
 
