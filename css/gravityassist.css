@@ -103,6 +103,7 @@ p{margin:0 0 1em}
 .ga-fund-card-sponsored .ga-fund-name,.ga-fund-card-sponsored .ga-fund-desc,.ga-fund-card-sponsored .ga-fund-cost{color:#888}
 .ga-fund-sponsored{display:inline-flex;align-items:center;justify-content:center;height:38px;padding:0 20px;background:transparent;border:1.5px solid #00e676;color:#00e676;font-family:var(--ga-display);font-weight:700;font-size:12px;letter-spacing:2px;text-transform:uppercase;border-radius:999px;align-self:flex-start;margin-top:10px;cursor:default}
 .ga-fund-closing{text-align:center;color:var(--ga-ink-dim);max-width:760px;margin:72px auto 0;font-size:22px;line-height:1.65;font-weight:300}
+.ga-fund-closing-repeat{margin:0 auto 44px}
 .ga-fund-closing a{color:#7fa4d8;font-weight:500;border-bottom:1px solid rgba(127,164,216,.4);transition:color .15s,border-color .15s}
 .ga-fund-closing a:hover{color:#fff;border-bottom-color:#fff}
 
