@@ -9,7 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&family=Barlow:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/gravityassist.css?v=20260614">
+  <link rel="preload" as="image" href="images/gravityassist/hero/divine-hand-hero.jpg">
+  <link rel="stylesheet" href="css/gravityassist.css?v=20261030">
 </head>
 <body>
 
@@ -19,7 +20,7 @@
 
   <div class="ga-topbar" id="top">
     <div class="ga-topbar-inner">
-      <a href="#support" class="ga-topbar-cta">Support the Project</a>
+      <a href="#support" class="ga-topbar-cta" style="display:none">Support the Project</a>
       <a href="https://www.instagram.com/thedivinehandsculpture/" class="ga-topbar-ig" target="_blank" rel="noopener" aria-label="The Divine Hand on Instagram">
         <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
@@ -28,25 +29,24 @@
         </svg>
       </a>
       <div class="ga-topbar-title">The Divine Hand</div>
-      <div class="ga-topbar-sub">Coming to Burning Man, 2026</div>
+      <div class="ga-topbar-sub">Burning Man, 2026</div>
     </div>
   </div>
 
   <section class="ga-hero">
     <div class="ga-hero-frame">
-      <img src="images/gravityassist/Picture1 2.avif" alt="The Divine Hand concept rendering" class="ga-hero-image">
+      <video class="ga-hero-image" src="images/gravityassist/hero/divine-hand-hero.mp4" poster="images/gravityassist/hero/divine-hand-hero.jpg" autoplay muted loop playsinline preload="auto" aria-label="Drone view circling The Divine Hand on the Playa at Burning Man"></video>
     </div>
 
     <div class="ga-hero-text">
       <p class="ga-eyebrow">Our Next Project:</p>
-      <p class="ga-eyebrow-sub">Coming to Burning Man, 2026</p>
+      <p class="ga-eyebrow-sub">Burning Man, 2026</p>
       <h1 class="ga-title">The Divine Hand</h1>
       <p class="ga-subtitle">An Interactive Sculpture</p>
     </div>
 
-    <div class="ga-progress-group">
+    <div class="ga-progress-group" style="display:none">
       <div class="ga-progress-pills">
-        <a href="#join" class="ga-progress-pill">Join the Project</a>
         <a href="#support" class="ga-progress-pill">Support the Project</a>
       </div>
     </div>
@@ -117,6 +117,8 @@
       <div class="ga-carousel" id="gaCarousel">
         <button class="ga-carousel-btn ga-carousel-prev" type="button" aria-label="Previous">&lsaquo;</button>
         <div class="ga-carousel-track" id="gaCarouselTrack">
+          <a class="ga-carousel-slide" href="https://www.instagram.com/thedivinehandsculpture/" target="_blank" rel="noopener"><img src="images/gravityassist/progress/9.jpg" alt="Progress post 9" loading="lazy"></a>
+          <a class="ga-carousel-slide" href="https://www.instagram.com/thedivinehandsculpture/" target="_blank" rel="noopener"><img src="images/gravityassist/progress/10.jpg" alt="Progress post 10" loading="lazy"></a>
           <a class="ga-carousel-slide" href="https://www.instagram.com/thedivinehandsculpture/" target="_blank" rel="noopener"><img src="images/gravityassist/progress/7.png" alt="Progress post 7" loading="lazy"></a>
           <a class="ga-carousel-slide" href="https://www.instagram.com/thedivinehandsculpture/" target="_blank" rel="noopener"><img src="images/gravityassist/progress/8.png" alt="Progress post 8" loading="lazy"></a>
           <a class="ga-carousel-slide" href="https://www.instagram.com/thedivinehandsculpture/" target="_blank" rel="noopener"><img src="images/gravityassist/progress/1.png" alt="Progress post 1" loading="lazy"></a>
@@ -130,7 +132,7 @@
     </div>
   </section>
 
-  <section class="ga-section" id="support">
+  <section class="ga-section" id="support" style="display:none">
     <div class="ga-fund-wrap">
       <h2 class="ga-h2">What We Still Need</h2>
       <p class="ga-fund-intro">The Divine Hand is a sum of its parts: every bolt, every beam, every gallon of chrome. Below are the pieces we still need to bring it to life. Claim one, and you become part of the story of how this thing gets made. Your name will live with the piece you funded.</p>
